@@ -1,0 +1,114 @@
+.wrapper {
+  width: 80%;
+  margin-inline: auto;
+  margin-block: 1.5em;
+  border: 3px solid gray;
+  padding: 2em;
+}
+
+.navbar {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  padding-bottom: .8rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.437);
+}
+
+.navbar a {
+  padding-right: .3rem;
+  border-right: 0.3px solid rgb(128, 128, 128);
+  padding-left: .5rem;
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: black;
+  padding-bottom: .1rem;
+}
+
+.navbar a:hover {
+  color: rgb(119, 199, 226);
+  border-bottom: 1px solid lightblue;
+}
+
+.image-container img {
+  width: 100%;
+  max-width: 250px;
+}
+
+.first-paragraph {
+  font-size: 1.1rem;
+  text-indent: 15px;
+}
+
+/*-----------TABLE PART-------- */
+table {
+  width: 80%;
+  height: 25vh;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: .4em
+}
+
+table th {
+  font-size: 1.2rem;
+}
+
+table td {
+  padding: .4em
+}
+
+.job-table {
+  height: 15vh;
+}
+
+.job-table th {
+  background-color: rgb(215, 245, 255);
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+
+/*-----------FORM PART--------- */
+.form-submit {
+  border: 1px solid black;
+  padding: 4em;
+  width: 80%;
+  max-width: 1200px;
+  margin: .5em auto 2em;
+  border-radius: .7em;
+}
+
+.select {
+  margin-block: .5rem;
+  height: 2em;
+  width: 60%;
+  padding-inline: .6em;
+}
+
+.form-submit input {
+  margin-block: .3rem;
+  width: 70%;
+  height: 1.5em;
+  padding-left: .6em;
+}
+
+.title {
+  margin-inline: 1em;
+  font-size: 2.8rem;
+  text-align: center;
+}
+
+.form-submit button {
+  margin-block: 1em;
+  margin-right: .6em;
+  height: 2em;
+}
+
+.personal-info {
+  margin-block: 1.5em;
+}
+
+.skill-ul li {
+  margin-block: .8em;
+}
